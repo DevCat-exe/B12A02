@@ -9,3 +9,70 @@ body {
 .font-inter {
     font-family: 'Inter', sans-serif;
 }
+
+/* Main orange buttons */
+.btn-primary {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.875rem;
+    /* 14px */
+    color: white;
+    background-color: #F97316;
+    /* orange-500 */
+    padding: 0.5rem 1.5rem;
+    /* py-2 px-6 */
+    transition: background-color 0.2s;
+}
+
+.btn-primary:hover {
+    background-color: #EA580C;
+    /* orange-600 */
+}
+
+/* Section Titles */
+.section-title {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.section-title span {
+    color: #E86A34;
+}
+
+/* Section Subtitles */
+.section-subtitle {
+    color: #4B5563;
+    margin-top: 1.25rem;
+    max-width: 36rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Product Cards */
+.product-card {
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.product-card-image-wrapper {
+    background-color: #E5E7EB;
+    padding: 1rem;
+    aspect-ratio: 1 / 1;
+}
+
+.product-card-image-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.product-card h3 {
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+
+.product-card p {
+    font-weight: 700;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
