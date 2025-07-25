@@ -28,6 +28,27 @@ body {
     /* orange-600 */
 }
 
+/*button for the newsletter */
+.btn-subscribe {
+    font-family: 'Inter', sans-serif;
+    color: white;
+    background-color: #F97316;
+    padding: 1rem;
+    width: 100%;
+    transition: background-color 0.2s;
+}
+
+.btn-subscribe:hover {
+    background-color: #EA580C;
+}
+
+@media (min-width: 640px) {
+    .btn-subscribe {
+        width: 33.33%;
+        margin-top: 0;
+    }
+}
+
 /* Section Titles */
 .section-title {
     font-size: 3rem;
@@ -75,4 +96,19 @@ body {
     font-weight: 700;
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
+}
+
+/* Newsletter Section */
+.join-section {
+    background-image: url('./assets/news-letter-bg.png');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 6rem 0;
+}
+
+.join-section h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
 }
